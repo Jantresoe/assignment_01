@@ -10,7 +10,6 @@ Your job: implement the four functions below so the Unit Tests in
 tests/test_unit.py all pass. Each docstring says exactly what the function should
 return — replace the `# TODO` line (and the `pass`) with your code.
 """
-
 def tip_amount(subtotal, pct):
     """Return the tip amount for a subtotal at the given percentage."""
     return round(subtotal * pct / 100, 2)

@@ -21,7 +21,7 @@ def split_evenly(total, people):
     if people == 0:
         raise ValueError("Number of diners cannot be zero.")
     return round(total / people, 2)
-def generous(pct):
+def is_generous(pct):
     """Return True if the tip percentage is generous (20% or higher), False otherwise."""
     if pct < 0:
         raise ValueError("Tip percentage cannot be negative.")

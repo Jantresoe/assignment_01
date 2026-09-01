@@ -1,5 +1,5 @@
 Write your reflection here.
-the work wasn't that hard and allowed me to understand python a littler better, i am more confifent in use it more properly
+the assignment was much mor simplier than i thought, i had done a litte python before so i understood a few things before this but i most forgot about during summer so the assignment was mostly about me remembering how modules work and to properly use them. the do like the intergration and unit test as it allows me to locate where i went wrong with my code and fix, unlike before where i had to spend a long time finding them in jupyterhub. 
 
 See reflection.md for what makes a good reflection — be specific, use the
 terminology from class, and make it actionable.

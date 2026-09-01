@@ -1,0 +1,14 @@
+import pandas as pd
+import bill
+def tip_amount(subtotal, pct):
+    return round(subtotal * pct / 100, 2)
+def grand_total(subtotal, pct):
+    return round(subtotal + bill.tip_amount(subtotal, pct), 2)
+def split_evenly(total, dinners):
+    if dinners == 0:
+        raise ValueError("Number of diners cannot be zero.")
+    return round(total / dinners, 2)
+def generous(pct):
+    if pct < 0:
+        raise ValueError("Tip percentage cannot be negative.")
+    return pct >= 20

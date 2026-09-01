@@ -1,4 +1,5 @@
 Write your reflection here.
+the work wasn't that hard and allowed me to understand python a littler better, i am more confifent in use it more properly
 
 See reflection.md for what makes a good reflection — be specific, use the
 terminology from class, and make it actionable.
